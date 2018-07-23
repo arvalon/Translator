@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Translator</string>
+    <string name="translate_fragment_title">Переводчик</string>
+    <string name="dictionary_fragment_title">Словарь</string>
+
+    <string name="translate_fragment_tv">Введите слово для перевода</string>
+    <string name="btn_translate">Перевести</string>
+
+</resources>
