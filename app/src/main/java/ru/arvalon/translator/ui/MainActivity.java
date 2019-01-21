@@ -11,7 +11,7 @@ import ru.arvalon.translator.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String LOGTAG = "vga";
+    public static final String LOGTAG = "mytranslator";
 
     public TabLayout tabLayout;
 
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setViewPager() {
+
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
         adapter.addFragment(new TranslateFragment(),getString(R.string.translate_fragment_title));
