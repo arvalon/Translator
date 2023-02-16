@@ -1,6 +1,6 @@
 package ru.arvalon.translator.model;
 
-import android.support.v4.util.LruCache;
+//import androidx.core.util.LruCache;
 import android.util.Log;
 
 import io.reactivex.Observable;
@@ -9,6 +9,8 @@ import ru.arvalon.translator.net.NetworkUtility;
 import ru.arvalon.translator.net.YandexTranslateService;
 
 import static ru.arvalon.translator.ui.MainActivity.LOGTAG;
+
+import androidx.collection.LruCache;
 
 public class Repository {
 
